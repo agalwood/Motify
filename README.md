@@ -5,7 +5,7 @@ Motify is licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 
 ## Links:
-+ [Demo Page]()
++ [Demo Page](http://agalwood.github.io/Motify)
 
 ## Changelog
 
