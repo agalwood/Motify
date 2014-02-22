@@ -7,7 +7,8 @@ Motify is licensed under a MIT License - http://opensource.org/licenses/mit-lice
 
 
 ## Links:
-+ [Demo Page](http://agalwood.github.io/Motify)
++ [Project](http://agalwood.github.io/Motify)
++ [Demo](http://htmlpreview.github.io/?https://github.com/agalwood/Motify/blob/master/demo.html)
 
 ## Changelog
 
