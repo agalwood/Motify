@@ -1,0 +1,31 @@
+{
+    "name": "Motify",
+    "version": "0.0.1",
+    "description": "Motify 0.0.1 =======",
+    "homepage": "http://agalwood.github.io/Motify/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/agalwood/Motify.git"
+    },
+    "devDependencies": {
+        "gulp": "~3.5.2",
+        "underscore": "~1.6.0",
+        "gulp-jshint": "~1.4.2",
+        "gulp-less": "~1.2.1",
+        "gulp-rename": "~1.1.0",
+        "gulp-uglify": "~0.2.1",
+        "gulp-util": "~2.2.14",
+        "gulp-minify-css": "~0.3.0"
+    },
+    "bugs": {
+        "url": "https://github.com/agalwood/Motify/issues"
+    },
+    "main": "gulpfile.js",
+    "directories": {
+        "test": "test",
+        "dist": "dist",
+        "source": "source"
+    },
+    "author": "Dr_rOot",
+    "license": "MIT"
+}
