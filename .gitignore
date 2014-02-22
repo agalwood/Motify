@@ -14,3 +14,4 @@ Icon
 .Trashes
 
 node_modules
+*.log
