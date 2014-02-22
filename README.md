@@ -1,7 +1,9 @@
 Motify 0.0.1
 =======
+### A simple, lightweight jQuery plugin for mobile notify.
 
-Motify is licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0)  (http://creativecommons.org/licenses/by/3.0/) and MIT License - http://opensource.org/licenses/mit-license.html. 
+
+Motify is licensed under a MIT License - http://opensource.org/licenses/mit-license.html. 
 
 
 ## Links:
@@ -9,3 +11,4 @@ Motify is licensed under a Creative Commons Attribution 3.0 Unported (CC BY 3.0)
 
 ## Changelog
 
+- v0.0.1 Motify 初版
