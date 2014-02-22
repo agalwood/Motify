@@ -1,0 +1,68 @@
+// normalize css
+@import "normalize.less";
+
+@import "lesshat.less";
+
+body {
+    padding: 15px;
+}
+
+a {
+    color: #16a085;
+    text-decoration: none;
+    color: #16a085;
+    .transition(~"all linear 0.2s");
+    &:hover {
+        color: #1abc9c;
+    }
+}
+
+pre {
+    overflow: auto;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+.header {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.logo {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 15px;
+}
+
+.plugin-desc {
+    color: #999;
+}
+
+
+.content {
+    padding: 10px;
+}
+
+.fn-list {
+    &> li {
+        margin-bottom: 15px;
+    }
+}
+
+.desc {
+    padding: 5px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    line-height: 1.5em;
+    font-size: 14px;
+    .border-radius(5px);
+    color: #666;
+}
+
+.footer {
+    margin-top: 30px;
+    text-align: center;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]>    <html class="no-js iem7"> <![endif]-->
+<!--[if (gt IEMobile 7)|!(IEMobile)]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Motify</title>
+        <meta name="author" content="Dr_rOot @agalwood">
+        <meta name="description" content="A simple, lightweight jQuery plugin for mobile notify.">
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="cleartype" content="on">
+
+        <link rel="shortcut icon" href="img/touch/apple-touch-icon.png">
+
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/motify.css">
+    </head>
+    <body>
+
+        <div class="container">
+            <div class="header">
+                <h1 class="logo">Motify</h1>
+                <p class="plugin-desc">A simple, lightweight jQuery plugin for mobile notify.</p>
+            </div>
+
+            <div class="content">
+
+                <h3>Functions:</h2>
+                <ul class="fn-list">
+                    <li>
+                        <a href="javascript:;" data-fn-name="log" data-fn-args="fn log is called!" class="js-fn-test">log()</a>
+<pre class="desc">/**
+ * log: motify 消息提示
+ * @param  {string} msg      提示的内容
+ * @param  {number} duration 提示框存在的时间；
+ *                           为『0』则提示框不会消失，需要手动调用clear方法关闭。
+ */</pre>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-fn-name="clear" class="js-fn-test">clear()</a>
+<pre class="desc">/**
+ * clear 清除motify提示框
+ */</pre>
+                    </li>
+                    <li>
+                        <a href="javascript:;" data-fn-name="hide" class="js-fn-test">hide()</a>
+                    </li>
+<pre class="desc">/**
+ * hide: motify 自动隐藏
+ * @param  {number} duration 提示框自动隐藏时间
+ */</pre>
+                </ul>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="copyright"><a href="http://agalwood.net/">@agalwood</a></p>
+        </div>
+
+
+        <script src="vendor/zepto.min.js"></script>
+        <script src="dist/motify.min.js"></script>
+        <script src="source/demo.js"></script>
+
+
+    </body>
+</html>

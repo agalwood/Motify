@@ -1,0 +1,13 @@
+.motify{display:none;position:fixed;top:35%;left:50%;width:220px;margin-left:-110px;z-index:100;background:rgba(0,0,0,.8);color:#fff;font-size:14px;line-height:1.5em;-webkit-border-radius:6px;-webkit-background-clip:padding-box;-moz-border-radius:6px;-moz-background-clip:padding;border-radius:6px;background-clip:padding-box;-webkit-box-shadow:0 1px 2px rgba(0,0,0,.2);-moz-box-shadow:0 1px 2px rgba(0,0,0,.2);box-shadow:0 1px 2px rgba(0,0,0,.2);-webkit-animation-duration:.15s;-moz-animation-duration:.15s;-o-animation-duration:.15s;animation-duration:.15s;-webkit-animation-fill-mode:both;-moz-animation-fill-mode:both;-o-animation-fill-mode:both;animation-fill-mode:both}
+.motify .motify-inner{padding:10px;text-align:center;word-wrap:break-word}
+.motify p{margin:0 0 5px}
+.motify p:last-of-type{margin-bottom:0}
+@-webkit-keyframes motifyFx{0%{-webkit-transform:scale(1);opacity:1}
+100%{-webkit-transform:scale(.85)}}
+@-moz-keyframes motifyFx{0%{-moz-transform:scale(1);opacity:1}
+100%{-moz-transform:scale(.85)}}
+@-o-keyframes motifyFx{0%{-o-transform:scale(1);opacity:1}
+100%{-o-transform:scale(.85)}}
+@keyframes motifyFx{0%{transform:scale(1);opacity:1}
+100%{transform:scale(.85)}}
+.motifyFx{-webkit-animation-name:motifyFx;-moz-animation-name:motifyFx;-o-animation-name:motifyFx;animation-name:motifyFx}
