@@ -10,7 +10,7 @@
                 '</div>' +
                 '</div>',
             contentTpl: '<p><%=content %><p>',
-            duration: 2000
+            duration: 3300
         };
 
     function Plugin(options) {
@@ -71,7 +71,8 @@
         },
 
         /**
-         * hide: motify 自动隐藏
+         * hide
+         * motify 自动隐藏
          * @param  {number} duration 提示框自动隐藏时间
          */
         hide: function(duration) {
@@ -84,12 +85,17 @@
 
             // 计时器大于 0，提示条才自动隐藏
             if (_duration > 0) {
-                window.setTimeout(function() {
+
+                self.$el.removeClass('motifyFx');
+                self.clearHideTimer();
+
+                self.hideTimer = window.setTimeout(function() {
                     self.$el.addClass('motifyFx');
-                    self.timer = window.setTimeout(function() {
+                    self.fxTimer = window.setTimeout(function() {
                         self._hide();
                     }, 300);
                 }, _duration);
+
             }
         },
 
@@ -100,17 +106,38 @@
         },
 
         /**
-         * clear 清除motify提示框
+         * clear
+         * 隐藏motify提示框
          */
         clear: function() {
             var self = this;
 
             self._hide();
+            self.clearFxTimer();
+        },
+
+        /**
+         * clearHideTimer
+         * 清除motify提示框隐藏的定时器
+         */
+        clearHideTimer: function() {
+            var self = this;
+
+            window.clearTimeout(self.hideTimer);
+            self.hideTimer = null;
+        },
+
+        /**
+         * clearFxTimer
+         * 清除motifyFx 的动画定时器
+         */
+        clearFxTimer: function() {
+            var self = this;
 
             // 清除动画计时器
-            window.clearTimeout(self.timer);
-            self.timer = null;
-        }
+            window.clearTimeout(self.fxTimer);
+            self.fxTimer = null;
+        },
 
     };
 
